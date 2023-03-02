@@ -12,26 +12,27 @@
 h1{
     color: fuchsia;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
+    font-family: 'Righteous';
 }
 
 p{
     margin-top: 50px;
     text-align: center;
-    font-size: large;
+    font-family: 'Righteous', cursive;
 }
 
 
 .info-container{
     margin-top: 50px;
-    margin-left: 20px;
+    margin-left: 30px;
     background-color: black;
     width: calc(100% / 3 - 40px);
     height: 80px;
+    float: left;
 }
 
 .left-box{
-    background-image: url(../assets/img/male1.png);
     background-size: contain;
     width: 30%;
     height: 100%;
@@ -59,4 +60,28 @@ h3, h5, small{
 
 small{
     color: dodgerblue;
+}
+
+#p-img{
+    background-image: url(../assets/img/male1.png);
+}
+
+#s-img{
+    background-image: url(../assets/img/female1.png);
+}
+
+#t-img{
+    background-image: url(../assets/img/male2.png);
+}
+
+#q-img{
+    background-image: url(../assets/img/female2.png);
+}
+
+#qi-img{
+    background-image: url(../assets/img/male3.png);
+}
+
+#se-img{
+    background-image: url(../assets/img/female3.png);
 }
