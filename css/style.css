@@ -21,7 +21,42 @@ p{
     font-size: large;
 }
 
+
 .info-container{
     margin-top: 50px;
-    background-color: aqua;
+    margin-left: 20px;
+    background-color: black;
+    width: calc(100% / 3 - 40px);
+    height: 80px;
+}
+
+.left-box{
+    background-image: url(../assets/img/male1.png);
+    background-size: contain;
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin-right: 10px;
+}
+
+.right-box{
+    float: left;
+    width: calc(70% - 10px);
+
+}
+
+h3{
+    margin-top: 15px;
+}
+
+h5, small{
+    margin-top: 5px;
+}
+
+h3, h5, small{
+    color: white;
+}
+
+small{
+    color: dodgerblue;
 }
