@@ -32,6 +32,12 @@ p{
     float: left;
 }
 
+.clearfix{
+    content: "";
+    clear: both;
+    display: table;
+}
+
 .left-box{
     background-size: contain;
     width: 30%;
